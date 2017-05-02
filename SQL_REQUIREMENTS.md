@@ -1,6 +1,6 @@
 # SQL Requirements
 
-This is the SQL statements i write in order to create the tables & insert the data (this was done as quickly & simply as possible with no regards to real life scenarios)
+Below are the SQL statements i wrote in order to create the tables & insert the data (they were written as quickly & simply as possible with no regards to real life scenarios)
 
 Please note that i have used MySQL instead of SQL Server, as i’m running a MacOS operating system
 

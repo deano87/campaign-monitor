@@ -42,3 +42,6 @@ in order to install the required modules, and than:
         npm test
 
 to run the Mocha test
+
+**Requirement 7-8:** <br />
+I used MySQL instead of SQL Server, as i'm currently using macOS 
