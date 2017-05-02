@@ -22,6 +22,8 @@ https://golang.org/doc/install
 
         mkdir -p ~/go/src
 
+  Note: In windows, the path is `c:\Go\src`
+
 3. under ~/go/src, clone this repository by running:
 
         git clone https://github.com/deano87/campaign-monitor.git
@@ -44,4 +46,4 @@ in order to install the required modules, and than:
 to run the Mocha test
 
 **Requirement 7-8:** <br />
-I used MySQL instead of SQL Server, as i'm currently using macOS 
+I used MySQL instead of SQL Server, as i'm currently using macOS
