@@ -4,7 +4,7 @@
 ### Test Notes
 
 I chose GoLang to solve the first 4 requirements.
-The reason for choosing it is that Go is simple to read & understand, has great integrated unit testing, it's extremely fast & there's a lot of community support
+The reason for choosing it is because Go is simple to read & understand, has great integrated unit testing, it's extremely fast & there's a lot of community support
 
 All test scenarios are built to cover 100% of the code written for each requirement
 
@@ -18,7 +18,7 @@ https://golang.org/dl/<br />
 It is also recommended to read the Go installation wiki: <br />
 https://golang.org/doc/install
 
-2. The default path to the go library is ~/go, make sure src exists too:
+2. The default path to the go library is ~/go, make sure /src exists too:
 
         mkdir -p ~/go/src
 
@@ -30,3 +30,15 @@ https://golang.org/doc/install
 5. run:
 
         go test -cover -v
+
+
+**Requirement 5:** <br />
+I used the Mocha framework for this requirement. To start the test simply navigate to requirement-5, run:
+
+        npm install
+
+in order to install the required modules, and than:
+
+        npm test
+
+to run the Mocha test
