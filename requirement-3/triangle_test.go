@@ -17,7 +17,7 @@ var toTest = []TestStruct{
 var panicTest1 = []int{3, 4, 7}
 var panicTest2 = []int{-3, 4, 5}
 
-func TestGetPositiveDevisors(t *testing.T) {
+func TestGetTriangleArea(t *testing.T) {
 	var area float64
 	for i := range toTest {
 		area = getTriangleArea(toTest[i].lengths[0],
