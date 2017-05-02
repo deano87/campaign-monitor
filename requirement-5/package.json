@@ -1,0 +1,14 @@
+{
+  "name": "req-5",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "webpack --module-bind 'mocha-loader!./test'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "mocha-loader": "^1.1.1"
+  }
+}
