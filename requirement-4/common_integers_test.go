@@ -25,7 +25,7 @@ var toTest = []TestStruct{
 	},
 }
 
-func TestGetPositiveDevisors(t *testing.T) {
+func TestGetCommonIntegers(t *testing.T) {
 	for _, el := range toTest {
 		common := getCommonIntegers(el.arr...)
 
