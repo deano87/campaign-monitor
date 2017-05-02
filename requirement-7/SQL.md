@@ -2,7 +2,7 @@
 
 Please note that i have used MySQL instead of SQL Server, as i'm running a MacOS operating system
 
-###First answer:
+### First answer:
 
     SELECT DISTINCT
         s.Name
@@ -15,7 +15,7 @@ Please note that i have used MySQL instead of SQL Server, as i'm running a MacOS
     WHERE
         c.Name = 'George';
 
-###Second answer:
+### Second answer:
 
     SELECT DISTINCT s1.Name
     FROM `Salesperson` AS s1
@@ -29,7 +29,7 @@ Please note that i have used MySQL instead of SQL Server, as i'm running a MacOS
       WHERE c.Name = 'George'
     );
 
-###Third answer:
+### Third answer:
 
     SELECT
         s1.Name
